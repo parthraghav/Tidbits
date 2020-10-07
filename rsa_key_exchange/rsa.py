@@ -1,5 +1,5 @@
 
-from tinyRSA.utils import generate_prime_number, find_coprime, rand_str, mod_inv
+from rsa_key_exchange.utils import generate_prime_number, find_coprime, rand_str, mod_inv
 import binascii
 
 def generate_keys():

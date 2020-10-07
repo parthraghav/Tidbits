@@ -1,4 +1,4 @@
-from tinyRSA.rsa import *
+from rsa_key_exchange.rsa import *
 
 class Message:
 	def __init__(self, msg, sender_node):
