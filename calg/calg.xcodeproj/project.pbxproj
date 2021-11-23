@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3199512256B986300B8E566 /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3199510256B986300B8E566 /* matrix.cpp */; };
 		F393EA1125591884007C286A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F393EA1025591884007C286A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F3199510256B986300B8E566 /* matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		F3199511256B986300B8E566 /* matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = matrix.hpp; sourceTree = "<group>"; };
 		F393EA0D25591884007C286A /* calg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = calg; sourceTree = BUILT_PRODUCTS_DIR; };
 		F393EA1025591884007C286A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F393EA1025591884007C286A /* main.cpp */,
+				F3199510256B986300B8E566 /* matrix.cpp */,
+				F3199511256B986300B8E566 /* matrix.hpp */,
 			);
 			path = calg;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3199512256B986300B8E566 /* matrix.cpp in Sources */,
 				F393EA1125591884007C286A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
